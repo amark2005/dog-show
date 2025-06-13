@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Good Boy Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>The Good Boy Gallery</h1>
+
+        <div class="selection-container">
+            <p id="loading-breeds-message" class="initial-message">Loading breeds...</p>
+            <select id="breed-select" class="breed-select" disabled>
+                <option value="">-- Select a Breed --</option>
+            </select>
+        </div>
+
+        <div id="dog-display" class="selected-breed-display hidden">
+            <h2 id="display-breed-name"></h2>
+            <p id="loading-image-text" class="loading-image-text hidden">Loading image...</p>
+            <img id="dog-image" class="dog-image" src="" alt="Selected dog breed">
+            <button id="show-another-btn" disabled>Show Another</button>
+        </div>
+
+        <p id="initial-instruction-message" class="initial-message">Select a breed from the dropdown to see a good boy!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
