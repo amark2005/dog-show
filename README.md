@@ -29,10 +29,6 @@ A simple, lightweight application that lets you **explore dogs by breed** — wi
 
 [View The Good Boy Gallery](https://amark2005.github.io/dog-show)  
 
-> 🔥 **Tip:**  
-> Please replace `your-username` and `your-repository-name` with your GitHub username and repository name once it's deployed.
-
----
 
 ## 🔮 Usage
 
